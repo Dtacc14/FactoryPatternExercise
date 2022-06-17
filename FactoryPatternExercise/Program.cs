@@ -6,7 +6,7 @@ namespace FactoryPatternExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What position fo you play: Defense, Short stick, or Goalie?");
+            Console.WriteLine("What position do you play: Defense, Short stick, or Goalie?");
             string playerAnswer = Console.ReadLine();
 
             ILaxStickTypes player1 = StickFactory.GetStick(playerAnswer);

@@ -8,7 +8,7 @@ namespace FactoryPatternExercise
     {
         public void StickType()
         {
-            Console.WriteLine("You got a new long stick!");
+            Console.WriteLine("You get a new long stick!");
         }
     }
 }
