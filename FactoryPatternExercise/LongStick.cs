@@ -6,9 +6,13 @@ namespace FactoryPatternExercise
 {
     public class LongStick : ILaxStickTypes
     {
-        public void StickType()
+        public LongStick()
         {
             Console.WriteLine("You get a new long stick!");
+        }
+        public void StickType()
+        {
+            Console.WriteLine("Do not let the opposing team score.");
         }
     }
 }

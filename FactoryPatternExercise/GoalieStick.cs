@@ -6,9 +6,13 @@ namespace FactoryPatternExercise
 {
     public class GoalieStick : ILaxStickTypes
     {
-        public void StickType()
+        public GoalieStick()
         {
             Console.WriteLine("You get a new goalie stick!");
+        }
+        public void StickType()
+        {
+            Console.WriteLine("Do not let the opposing team score.");
         }
     }
 }

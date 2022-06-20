@@ -6,9 +6,13 @@ namespace FactoryPatternExercise
 {
     public class ShortStick : ILaxStickTypes
     {
-        public void StickType()
+        public ShortStick()
         {
             Console.WriteLine("You get a new short stick!");
+        }
+        public void StickType()
+        {
+            Console.WriteLine("Score a lot of goals.");
         }
     }
 }
